@@ -537,14 +537,22 @@ ${musics}
 
 
             </div>`;
-                    if (window.location.href.includes(parseString(j))){
-                        if ($(window).width() > 500) {
-                            //console.log(project.title);
-                            console.log('go page');
-                            open_prog(data, j);
-                        } else {
-                            open_prog_mobi(data, j);
-                        }
+                    if (window.location.href.includes(j)) {
+                        window.selected = {};
+                        window.selected.j = j;
+                        window.selected.data = data;
+
+                        $('#start_button').click();
+                        setTimeout(() => {
+                            if ($(window).width() > 500) {
+                                //console.log(project.title);
+                                console.log('go page');
+                                open_prog(window.selected.data, window.selected.j);
+                            } else {
+                                open_prog_mobi(window.selected.data, window.selected.j);
+                            }
+                        }, 1000);
+
                     }
                     $('#projects_grid').append(string);
                     $('#prog_' + j).click(function (event) {
