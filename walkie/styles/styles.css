@@ -1,0 +1,154 @@
+body{
+    margin: 0 !important;
+    overflow-x: hidden;
+}
+.mdc-card-object{
+    display: flex;
+}
+.mdc-card-spacer{
+    flex-grow: 1;
+}
+
+.mdc-card{
+    margin: 20px 5px 2px !important;
+    overflow: hidden;
+    transition: height 2s;
+}
+i{
+    outline: none;
+}
+.mdc-linear-progress-trans{
+    transition: height 500ms !important;
+}
+.mdc-card-content{
+    margin: 10px !important;
+    line-height: 1.25rem !important;
+    font-size: .875rem;
+    color: rgba(0,0,0,.54) !important;
+
+}
+#messages_chat_room{
+    transform: translateY(-100%);
+    transition: transform  2s;
+}
+.mess_chat_room_show{
+    transform: translateY(0px) !important;z-index: 10000 !important;
+}
+.line-current-user{
+    border-radius: 12px 12px 1px 12px !important;
+}
+.line-another-user{
+    border-radius: 1px 12px 12px 12px !important;
+}
+#messages_list::-webkit-scrollbar { width: 0 !important }
+#messages_list{
+    position: absolute; z-index: 10; left: 8px; right: 8px; top: 0; overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+}
+.body_{
+    height: 100%; width: 100%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+#rooms_list{
+    position: absolute; z-index: 10; left: 8px; right: 8px; top: 0; overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+}
+#rooms_list::-webkit-scrollbar { width: 0 !important }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.typing-indicator {
+
+    background-color: transparent;
+    will-change: transform;
+    width: auto;
+    display: table;
+    margin: auto 0 0 auto;
+    position: relative;
+    -webkit-animation: 2s bulge infinite ease-out;
+    animation: 2s bulge infinite ease-out;
+}
+.typing-indicator-extend{
+    opacity: 0;
+    transition: all 2ms;
+}
+.show-typing-indicator{
+    opacity: 1 !important;
+}
+.icon-extend{
+    transition: all 1s;
+}
+#app_power_icon{
+    color: white;
+}
+.icon-animated-form{
+    color: #ff9e22 !important;
+    transform: rotate(360deg);
+}
+
+.typing-indicator span {
+    height: 5px;
+    width: 5px;
+    float: left;
+    margin: 0 1px;
+    background-color: #b39afd;
+    display: block;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+.typing-indicator span:nth-of-type(1) {
+    -webkit-animation: 1s blink infinite 0.3333s;
+    animation: 1s blink infinite 0.3333s;
+}
+.typing-indicator span:nth-of-type(2) {
+    -webkit-animation: 1s blink infinite 0.6666s;
+    animation: 1s blink infinite 0.6666s;
+}
+.typing-indicator span:nth-of-type(3) {
+    -webkit-animation: 1s blink infinite 0.9999s;
+    animation: 1s blink infinite 0.9999s;
+}
+
+@-webkit-keyframes blink {
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
+}

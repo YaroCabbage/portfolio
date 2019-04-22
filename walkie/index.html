@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="styles/styles.css">
+
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            console.log("Will the service worker register?");
+            navigator.serviceWorker.register('sw.js')
+                .then(function (reg) {
+                    console.log("Yes, it did.");
+                }).catch(function (err) {
+                console.log("No it didn't. This happened: ", err)
+            });
+        }
+        window.addEventListener('beforeinstallprompt', (e) => {
+            console.log('every ok');
+            // Prevent Chrome 67 and earlier from automatically showing the prompt
+            e.preventDefault();
+            // Stash the event so it can be triggered later.
+            deferredPrompt = e;
+        });
+
+    </script>
+
+    <link rel="stylesheet" href="mdc/material-components-web.min.css">
+    <script src="mdc/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/listview.js"></script>
+    <script src="js/data-transferer2/speco_compiled.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <script src="js/animatedModal.min.js"></script>
+</head>
+<body>
+
+<header  id="messages_chat_room" class="mdc-toolbar mdc-toolbar--fixed" style="">
+    <div class="mdc-toolbar__row">
+
+
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+            <a  class="mdc-toolbar__icon close-animatedModal" >
+                <i class="material-icons">
+                    arrow_back
+                </i>
+            </a>
+            <span class="mdc-toolbar__title">Jackie Evancho
+            <div class="typing-indicator typing-indicator-extend    ">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </span>
+
+        </section>
+    </div>
+</header>
+
+<header class="mdc-toolbar mdc-toolbar--fixed" style="">
+    <div class="mdc-toolbar__row">
+
+
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+            <a id="app_power" href="#" class="mdc-toolbar__icon">
+                <i id="app_power_icon" class="material-icons icon-extend">
+                    power_settings_new
+                </i>
+            </a>
+
+            <span class="mdc-toolbar__title">Rooms List</span>
+        </section>
+    </div>
+</header>
+
+<div id="main_page" class="body_" style="">
+    <div id="rooms_list" style="bottom: 0;">
+        <div class="mdc-card-object">
+            <div class="mdc-card ">
+                <div class="mdc-card-content mdc-typography--body2">Room: Koko Shanel</div>
+
+                <div class="mdc-card__actions mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card__action-buttons" style="">
+
+                        <button id="demo01" href="#animatedModal" class="mdc-button mdc-card__action mdc-card__action--button" style="">Connect
+                            <i class="material-icons mdc-button__icon" aria-hidden="true">open_in_new</i></button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="mdc-card-spacer"></div>
+
+
+        </div>
+        <button  class="mdc-fab" aria-label="Favorite"
+                style="position: absolute; bottom: 10px; right: 10px;">
+            <span class="mdc-fab__icon material-icons">add</span>
+        </button>
+        <!--
+        <div class="mdc-card-object">
+            <div class="mdc-card line-another-user">
+                <div class="mdc-card-content mdc-typography--body2">Test One</div>
+            </div>
+            <div class="mdc-card-spacer"></div>
+
+
+        </div>
+        <div class="mdc-card-object">
+            <div class="mdc-card-spacer"></div>
+            <div class="mdc-card line-current-user ">
+                <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                    </div>
+                <div role="progressbar" class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                    <div class="mdc-linear-progress__buffering-dots"></div>
+                    <div class="mdc-linear-progress__buffer"></div>
+                    <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                        <span class="mdc-linear-progress__bar-inner"></span>
+                    </div>
+                    <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                        <span class="mdc-linear-progress__bar-inner"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+-->
+
+    </div>
+</div>
+<div id="animatedModal">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+    <div class="modal-content">
+        <!--Your modal content goes here-->
+        <div id="real_body" class="body_" style="height: 100%; width: 100%; ">
+            <div id="messages_list" style="">
+                <!--
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                        </div>
+                        <div role="progressbar"
+                             class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mdc-card-object">
+                    <div class="mdc-card line-another-user">
+                        <div class="mdc-card-content mdc-typography--body2">Test One</div>
+                    </div>
+                    <div class="mdc-card-spacer"></div>
+
+
+                </div>
+                <div class="mdc-card-object">
+                    <div class="mdc-card-spacer"></div>
+                    <div class="mdc-card line-current-user ">
+                        <div class="mdc-card-content mdc-typography--body2">Test Two
+
+
+                            </div>
+                        <div role="progressbar" class=" mdc-linear-progress-trans mdc-linear-progress mdc-linear-progress--indeterminate">
+                            <div class="mdc-linear-progress__buffering-dots"></div>
+                            <div class="mdc-linear-progress__buffer"></div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                                <span class="mdc-linear-progress__bar-inner"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        -->
+
+            </div>
+            <div id="message_body" class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-trailing-icon"
+                 style=" position: absolute; z-index: 10; right: 8px; bottom: 8px; left: 8px;">
+
+                <i id="message_send" class="material-icons mdc-text-field__icon" tabindex="0" role="button">send</i>
+
+                <input type="text" id="tf-outlined-message-input" class="mdc-text-field__input">
+                <div class="mdc-notched-outline">
+                    <div class="mdc-notched-outline__leading"></div>
+                    <div class="mdc-notched-outline__notch">
+                        <label for="tf-outlined-message-input" class="mdc-floating-label">Сообщение</label>
+                    </div>
+                    <div class="mdc-notched-outline__trailing"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="js/index.js">
+
+
+</script>
+
+
+</body>
+</html>

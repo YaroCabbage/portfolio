@@ -1,0 +1,1199 @@
+{
+  "about": {
+    "title": "Капустин Ярослав",
+    "type": "0",
+    "tags": [
+      "#архитектура",
+      "#программирование",
+      "#дизайн",
+      "#рисование",
+      "#сочинение_музыки",
+      "#радиоэлектроника",
+      "#робототехника",
+      "#столярное_мастерство",
+      "#спорт",
+      "#биология",
+      "#химия",
+      "#ник_moor",
+      "#ник_Aevum007",
+      "#ник_Agathe_Daemon",
+      "#ник_Aevum_Daemon"
+    ],
+    "description": "Я считаю, что моё предназначение - реализация эпических, меняющих историю проектов. Для создания подобных проектов нужно использовать нестандртные подходы, нужно совмещать несовместимые направления науки и человеческой деятельности. Ответы и идеи могут быть спрятаны там, где никто не стал бы их искать. Именно поэтому, здесь, в своём портфолио, кроме профильных достижений(программирование), я публикую достижения, которые на первый взгляд совершенно не относятся к науке и инженерии, что уж там говорить о бизнесе. Но на самом деле это не так. Креатив, широкий кругозор, опыт, скилы, знания из расных сфер деятельности человека, способность руководить - вот, столпы моего будущего успеха. В тегах описываются допольнительная информация. Например скилы. При нажатии на фотографию, можно увидеть альбомы и подольнительную информацию. ",
+    "extensions": {
+      "gallery": [
+        {
+          "url": "me_1.svg",
+          "descr": ""
+        },
+        {
+          "url": "yaroslav.jpg",
+          "descr": ""
+        },
+        {
+          "url": "me_2.jpg",
+          "descr": ""
+        },
+        {
+          "url": "me_3.jpg",
+          "descr": ""
+        },
+        {
+          "url": "me_about_chist.png",
+          "descr": ""
+        }
+      ],
+      "dop_views": {
+        "youtube": [
+          {
+            "iframe": "<div style=\"\n    font-size: 17px;\n  font-family: Roboto;  margin: 7px;\n\">Почта: who.agent007@gmail.com Телефон:  89650438301</div>",
+            "description": "Контакты"
+          }
+        ]
+      }
+    }
+  },
+  "projects": [
+    {
+      "title": "Победа в хакатоне Hack & Change",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#сибур",
+        "#райффайзенбанк",
+        "#университет_иннополис",
+        "#дизайн",
+        "#креативное_мышление",
+        "#новые_идеи",
+        "#победа",
+        "#хакатон"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#007",
+        "#миссия_не_выполнима",
+        "#ux_ui"
+      ],
+      "preview_description": "На выполнение миссии было дано всего 24 часа. При её провале руководство отрицало бы любую причастность к нам... У нас не было выбора.",
+      "grid_photo": "logo-raif.svg",
+      "settings_data": {
+        "img_style": "height: 353px; transform: scale(0.17) translate(-240%,-100%); filter: invert(0); clip-path: none !important;"
+      },
+      "description": "Занять второе место в данном хакатоне было довольно сложно, на выполнение задачи было дано 24 часа, а соперниками были выпускники вузов. Написав основной код и воспользовавшись базой данных которые создал для меня наша команда, я с сокомандником презентовал проекта для кейса Райффазенбанка. Стоит отметить, что если бы не мой возраст, то я бы мог получить в качестве приза бесплатное обучение в магистратуре университета Иннополис.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "hack_change.png",
+            "descr": ""
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+            {
+              "description": "Приложение-прототип для стендового ассистента",
+              "iframe": "<iframe style=\"width: 100%; height: 300px;\" src=\"https://www.youtube.com/embed/Ws_L_TgJwO4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Музыкальное творчество",
+      "type": "0",
+      "tags": [
+        "#разностороннее_развитие",
+        "#музыка",
+        "#гармония"
+      ],
+      "preview_tags": [
+        "#разностороннее_развитие",
+        "#музыка",
+        "#гармония"
+      ],
+      "preview_description": "Занятия музыкой помогают расслабиться, а так-же найти вдохновение и силы, для работы над проектами. ",
+      "grid_photo": "unes.jpg",
+      "settings_data": {
+        "img_style": "height: 353px; transform: translate(-18%,-20%);    filter: invert(0); "
+      },
+      "description": "Когда ты занимаешься проектной деятельностью, то такая вещь, как музыка - очень важна. Нужно уметь её не только слышать, но и сочинять. Так, ты можешь создовать треки для своих проектов, для презентаций и просто для себя.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "unes.jpg",
+            "descr": ""
+          }
+        ],
+        "dop_views": {
+          "melody": [
+            {
+              "url": "AD0L - Last Ninja.mp3",
+              "descr": "Last Ninja. Эпоха самураев, древности и струны. Мелодия пытается перенести нас в такое прошлое, которое способно завладеть будушим и стать его частью."
+            },
+            {
+              "url": "one day life - china guy.mp3",
+              "descr": "china guy - один незамысловатый но сказочный день простого рабочего в Японии. За пеленой обыденности скрывается что-то необычное."
+            },
+            {
+              "url": "good_guy - dancing morning.mp3",
+              "descr": "Мелодия называется - dancing morning. Надежда на светлое будущее, любовь и момент истины."
+            },
+            {
+              "url": "AD0L - State of Mind Moments.mp3",
+              "descr": "State of mind moments - мой первый трек, написал я его к прошлому новому году. Он символизирует, состредоточенность и некоео волшебное состояние ума. Человек чувствует себя расслабленым и влюблённым. "
+            },
+            {
+              "url": "Space - Coffee table in the space.mp3",
+              "descr": "Coffe table in the space - замечательный вечер, чтобы провест его за кофейным столиком, попивая чашечку чая и наблюдая за туманностями, воспринимая нужные для этого электромагнитные излучения"
+            },
+            {
+              "url": "mini_sound_scapes.mp3",
+              "descr": "Небольшая музыкальная зарисовка, sound escape"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Победа в поисково-спасательном хакатоне",
+      "type": "0",
+      "tags": [
+        "#Разностороннее развитие",
+        "#программирование",
+        "#liza_alert",
+        "#нти",
+        "#онти",
+        "#один_в_команде",
+        "#работабезотдыха",
+        "#одиссея"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#работабезотдыха"
+      ],
+      "preview_description": "Участие в этом хакатоне позволило мне шагнуть в мир людей, который был ранее сокрыт от меня.",
+      "grid_photo": "save_hack_prev.jpg",
+      "settings_data": {
+        "img_style": "height: 353px; transform: translate(-10%,-25%);    filter: invert(0); "
+      },
+      "description": "Это был мой первый хакатон. Я соревновался против команд по 5-7 человек, в то время как сам был в команде состоящей из одного человека. Я выполнял кейс, который помог бы спасателем наиболее продуктивно искать людей. Для этого я использовал целый стак технологий. В итоге, мною за 3 дня было сделано Web и Android приложения. Моё решение позволяло работать поисковикам в условиях нестабильного интернет соединения, так-же давало некоторые преимущества в сравнение с продуктами других ребят.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "diplom_save_hack.jpg",
+            "descr": ""
+          },
+          {
+            "url": "save_hack_1.jpg",
+            "descr": ""
+          }
+        ],
+        "dop_views": {
+        }
+      }
+    },
+    {
+      "title": "Дизайн проекты",
+      "type": "0",
+      "tags": [
+        "#разностороннее_развитие",
+        "#программирование",
+        "#один_в_команде",
+        "#работабезотдыха",
+        "#дизайн"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#работабезотдыха"
+      ],
+      "preview_description": "Изобразительное творчество долгое время интересовало меня, сейчас исскуство дизайна - мой навык, поэтому будучи в команде с дизайнером, я смогу правильно курировать его работу.",
+      "grid_photo": "design_4.jpg",
+      "settings_data": {
+        "img_style": "height: 353px;    filter: invert(0);  transform: scale(0.6)translate(-34%,-35%); clip-path: none !important;    filter: invert(0); "
+      },
+      "description": "Когда занимаешься дизайном, проектированием персонажей, рисованием, то приходится применять максимум знаний из рахных отраслей, например программирование. Кроме того метод доктора франкештейна, все ещё довольно действенный и порою может удивить результатами.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "design_1.jpg",
+            "descr": "Одна из первый версий дизайна одного из проектов"
+          },
+          {
+            "url": "design_prev.jpg",
+            "descr": "Данный шедевр сгенерировало моё приложение для android."
+          },
+          {
+            "url": "design_2.jpg",
+            "descr": "Данный коладж был представлен для мини конкурса НТИ и стал победителем в нём."
+          },
+          {
+            "url": "design_3.jpg",
+            "descr": "А это фото сгененрированное всё тем же android приложением."
+          },
+          {
+            "url": "design_4.jpg",
+            "descr": ""
+          },
+          {
+            "url": "design_5.jpg",
+            "descr": ""
+          },
+          {
+            "url": "design_6.jpg",
+            "descr": ""
+          },
+          {
+            "url": "design_7.jpg",
+            "descr": ""
+          },
+          {
+            "url": "design_8.jpg",
+            "descr": ""
+          },
+          {
+            "url": "design_9.jpg",
+            "descr": ""
+          },
+          {
+            "url": "design_10.jpg",
+            "descr": ""
+          },
+          {
+            "url": "design_11.jpg",
+            "descr": ""
+          },
+          {
+            "url": "design_12.jpg",
+            "descr": ""
+          }
+        ],
+        "dop_views": {
+        }
+      }
+    },
+    {
+      "title": "Проект Arctus",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#исследование",
+        "#психология",
+        "#биология",
+        "#нейротехнологии",
+        "#алогоритмы",
+        "#ии",
+        "#новый_подход",
+        "#информационная_модель",
+        "#ир_исскуственный_разум"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#ир_исскуственный_разум"
+      ],
+      "preview_description": "Исследованние человеческого разума для последующей трансляции в информационную модель",
+      "grid_photo": "arctus.svg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.4) translate(-50%,-50%); clip-path:none !important;"
+      },
+      "description": "В рамках первой части проекта перед нами была поставлена задача - понять и описать модель работы разума человека. В конце концов перестроить модель под принципы работы компю.теров. Задача очень даже удаласт и на её основе можно будет дальше совершенствовать проект. Кроме того Проект был представлен на Балтийском конкурсе",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "arctus.svg",
+            "descr": "Логотип проекта",
+            "sett": "border:none !important;"
+          },
+          {
+            "url": "arctus_1.png",
+            "descr": "Проект был представлен на Балтийском конкурсе"
+          },
+          {
+            "url": "arctus_1.jpg",
+            "descr": ""
+          },
+          {
+            "url": "arctus_2.jpg",
+            "descr": ""
+          }
+        ],
+        "dop_views": {
+        }
+      }
+    },
+    {
+      "title": "Зимний поход в Карелии",
+      "type": "0",
+      "tags": [
+        "#холод",
+        "#лед",
+        "#хаски",
+        "#лыжи",
+        "#дрова",
+        "#мужество",
+        "#сила",
+        "#упорство",
+        "#разносторонее_развитие"
+      ],
+      "preview_tags": [
+        "#сила",
+        "#упорство",
+        "#разносторонее_развитие"
+      ],
+      "preview_description": "Зимняя тренировка Сердца и Души для предстоящих трудностей на пути судьбы.",
+      "grid_photo": "winter_soldier/winter_1.jpg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(1) translate(-20%,-30%); clip-path:none !important;"
+      },
+      "description": "Это достижение действительно является таковым, в зимние время, когда в твоих на утро вместо тепла холодный лёд. А новый год ты справляешь в хижине, в лесу. Достижение, когда ты не смотря на все проблемы продолжаешь жить. Рубить дрова, есть кашу, обшаться с людьми, снимать эти чертовы лыжи, которыевсё время слетают с тебя и идти пешком.\n",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "winter_soldier/winter_1.jpg",
+            "descr": "Фотография из похода.",
+            "sett": ""
+          },
+          {
+            "url": "winter_soldier/winter_2.png",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_3.jpg",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_4.jpg",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_5.jpg",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_6.jpg",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_7.jpg",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_8.jpg",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_9.jpg",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_10.jpg",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_11.jpg",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_12.jpg",
+            "descr": ""
+          },
+          {
+            "url": "winter_soldier/winter_13.jpg",
+            "descr": ""
+          }
+        ],
+        "dop_views": {
+        }
+      }
+    },
+    {
+      "title": "Летний поход в Карелии",
+      "type": "0",
+      "tags": [
+        "#холод",
+        "#дождь",
+        "#хаски",
+        "#грязь",
+        "#катамаран_ы",
+        "#мужество",
+        "#сила",
+        "#упорство",
+        "#разносторонее_развитие"
+      ],
+      "preview_tags": [
+        "#сила",
+        "#упорство",
+        "#разносторонее_развитие"
+      ],
+      "preview_description": "Летняя тренировка Сердца и Души для предстоящих трудностей на пути судьбы.",
+      "grid_photo": "summer_soldier/summer_1.jpg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(1) translate(-20%,-30%); clip-path:none !important;"
+      },
+      "description": "Это достижение действительно является таковым, в зимние время, когда в твоих на утро вместо тепла холодный лёд. А новый год ты справляешь в хижине, в лесу. Достижение, когда ты не смотря на все проблемы продолжаешь жить. Рубить дрова, есть кашу, обшаться с людьми, снимать эти чертовы лыжи, которыевсё время слетают с тебя и идти пешком.\n",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "summer_soldier/summer_1.jpg",
+            "descr": "Фотография из похода.",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_2.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_3.png",
+            "descr": "Справка свидитесльтвующая обо мне, как о человеке, прошедшем поход",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_4.png",
+            "descr": "За труд в походе мне было дано разрешение на прохождение в поход на 2 уровня сложнее, нежели в том, в котором я был.",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_5.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_6.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_7.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_8.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_9.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_10.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_11.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_12.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_13.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "summer_soldier/summer_14.png",
+            "descr": "",
+            "sett": ""
+          }
+        ],
+        "dop_views": {
+        }
+      }
+    },
+    {
+      "title": "Успехи в изучении Немецкого языка",
+      "type": "0",
+      "tags": [
+        "#инностранный_язык",
+        "#разговорный_уровень",
+        "#второй_язык",
+        "#разносторонее_развитие"
+      ],
+      "preview_tags": [
+        "#разговорный_уровень",
+        "#второй_язык",
+        "#разносторонее_развитие"
+      ],
+      "preview_description": "Изучение немецкого языка опеределённо поможет в будущем при поиске инвесторов за границей",
+      "grid_photo": "deutsche_0.jpg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.6) translate(-40%,-38%); clip-path:none !important;"
+      },
+      "description": "Я учу немецкия яхык ещё с первого класса. За эти годы я научился его воспринимать на интуитивном уровне. Я ездил за границу, где этот язык преподавали сами немцы. Я получил так-эе сертефикаты о моём уровне и способностях.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "deutsche_1.png",
+            "descr": "Сертефикат о сдаче экзамена на знание немецкого языка, на уровень A1",
+            "sett": ""
+          },
+          {
+            "url": "deutsche_2.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "deutsche_3.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "deutsche_0.jpg",
+            "descr": ""
+          },
+          {
+            "url": "deutsche_4.png",
+            "descr": ""
+          }
+        ],
+        "dop_views": {
+        }
+      }
+    },
+    {
+      "title": "Горнолыжный спорт",
+      "type": "0",
+      "tags": [
+        "#спорт",
+        "#лыжи",
+        "#снег",
+        "#разносторонее_развитие"
+      ],
+      "preview_tags": [
+        "#спорт",
+        "#лыжи",
+        "#снег",
+        "#разносторонее_развитие"
+      ],
+      "preview_description": "Движение вниз, чтобы двигаться вверх",
+      "grid_photo": "snow_man_1.jpg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(1) translate(-20%,-30%); clip-path:none !important;"
+      },
+      "description": "Занятие спортом всегда укрепляет дух, особенно, когда ты летишь с огромной скоростью в пропасть. В фотографиях есть грамота.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "snow_man_1.jpg",
+            "descr": "Движение вниз, чтобы двигаться вверх",
+            "sett": ""
+          },
+          {
+            "url": "snow_man_2.png",
+            "descr": "",
+            "sett": ""
+          }
+        ],
+        "dop_views": {
+        }
+      }
+    },
+    {
+      "title": "Успехи в танцах",
+      "type": "0",
+      "tags": [
+        "#вдохновение",
+        "#воображение",
+        "#социализация",
+        "#необычно",
+        "#тоже_нужно",
+        "#танцы",
+        "#разносторонее_развитие"
+      ],
+      "preview_tags": [
+        "#необычно",
+        "#тоже_нужно",
+        "#танцы",
+        "#разносторонее_развитие"
+      ],
+      "preview_description": "Танцы позволяют человеку раскрыть свои, разблокировать свои мысли с помощью тела.",
+      "grid_photo": "dance_5.jpg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(1) translate(-16%,-20%); clip-path:none !important;"
+      },
+      "description": "Занимаясь танцами я приобрёл много опыта, личных(?) побед и, конечно, умение танцевать, что, надо сказать, цениться в обществе.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "dance_0.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "dance_1.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "dance_2.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "dance_3.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "dance_prev.jpg",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "dance_5.jpg",
+            "descr": "",
+            "sett": ""
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+            {
+              "description": "Танцевальная студия Комильфо. Выступление в городе - Рига.",
+              "iframe": "<iframe style=\"width: 100%; height: 300px;\" src=\"https://www.youtube.com/embed/5lYA4wuXOy8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Moscow Looker",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#инновационные_технологии",
+        "#dart",
+        "#flutter",
+        "#firebase",
+        "#москва",
+        "#правительство",
+        "#dart",
+        "#разносторонее_развитие"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#москва",
+        "#правительство"
+      ],
+      "preview_description": "Амбициозный проект сделанный по заказу правительства Москвы",
+      "grid_photo": "gku.svg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.49) translate(-0%,-45%); clip-path:none !important;"
+      },
+      "description": "Проект разрабатывался для ГКУ Москвы. Выполним поставленную задачу, мы сделали систему приложений, позволяющюю значительно упроситить контроль за выполнение заказов за бюджетные средства.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "gku.svg",
+            "descr": "",
+            "sett": "border: none !important;"
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+            {
+              "description": "Демонстрационное видео. В нем предаствавлен макет приложения, а не оригинал.",
+              "iframe": "<iframe style=\"width: 100%; height: 300px;\"  src=\"https://www.youtube.com/embed/9kw_zYczfOo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+            },
+            {
+              "description": "Демонстрация тестового клиента веб консоли. Представлены обьекты, статистический анализ, отслеживание сотрудников исполнябщих проверку.",
+              "iframe": "<iframe style=\"width: 100%; height: 300px;\" src=\"https://www.youtube.com/embed/Hr1EaUGdFEI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Cosmic Baby",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#старичёк_php",
+        "#java",
+        "#swift",
+        "#material_design",
+        "#cross_platform",
+        "#финансирование",
+        "#работа_с_алгоритмами",
+        "#разносторонее_развитие"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#работа_с_алгоритмами"
+      ],
+      "preview_description": "Уникальный проект, выполненный на основе данных, полученных в результате 30 летних исследований.",
+      "grid_photo": "cosmo_baby_1.svg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.6) translate(-5%,-48%); clip-path:none !important;"
+      },
+      "description": "Это первое в истории и единственное в мире приложение, позволяющее рассчитать даты зачатия здорового и сильного ребенка с выдающимися умственными и духовными способностями.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "cosmo_baby_1.svg",
+            "descr": "",
+            "sett": "border: none !important;"
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+            {
+              "iframe": "<div style=\"\n    font-size: 17px;\n  font-family: Roboto;  margin: 7px;\n\">Больше о данном проекте на официальном сайте Cosmic Baby</div>",
+              "description": "</p><button onclick=\"openCosmicGoogle()\" class=\"mdui-btn mdui-ripple mdui-color-transparent \">Google Play</button><button onclick=\"openCosmicStore()\" class=\"mdui-btn mdui-ripple mdui-color-transparent \">AppStore</button><button onclick=\"openCosmic()\" class=\"mdui-btn mdui-ripple mdui-color-transparent \">Сайт приложения</button><p>"
+            }
+          ],
+          "melody": [
+            {
+              "url": "cosmic_baby_1.mp3",
+              "descr": "OST 1 Cosmic Baby"
+            },
+            {
+              "url": "cosmic_baby_2.mp3",
+              "descr": "OST 2 Cosmic Baby"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "MartiniBD",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#nodejs",
+        "#socket.io",
+        "#json",
+        "#бд"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#работа_с_алгоритмами"
+      ],
+      "preview_description": "Проект базы данных для соц сети Avis Tree",
+      "grid_photo": "martini_db.svg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.9) translate(-19%,-23%); background: rgb(255, 0, 78); clip-path:none !important;"
+      },
+      "description": "Простая и легкая база данных, постороенная на принципе ооп и Rest api. Идея заключалась в том, чтобы создать базу данных способную работать без прописывания структуры обьектов, которые в неё помещаются",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "martini_db.svg",
+            "descr": "",
+            "sett": "background: rgb(255, 0, 78);"
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+          ],
+          "melody": [
+          ]
+        }
+      }
+    },
+    {
+      "title": "Avis Tree",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#material_design",
+        "#cross_platform",
+        "#соц_сеть",
+        "#ученые",
+        "#разносторонее_развитие"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#соц_сеть"
+      ],
+      "preview_description": "Открытая социальная сеть для учёных, позволяющая объединяться в сообщества и реализовывать проекты людям со всего мира.",
+      "grid_photo": "Avis Tree-0.svg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform:  scale(0.5) translate(-49%,-40%); clip-path:none !important;"
+      },
+      "description": "В нынешнем мире существует множество проблем касающихся реализации проектов. Данный проект нацелен на решение таких проблем, как ",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "Avis Tree-0.svg",
+            "descr": "",
+            "sett": "border: none !important;"
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+          ],
+          "melody": [
+          ]
+        }
+      }
+    },
+    {
+      "title": "Recall Note",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#java(android)",
+        "#material_design",
+        "#используем_api_необычным_способом",
+        "#sqlite",
+        "#сделано_в_2016"
+      ],
+      "preview_tags": [
+        "#программирование"
+      ],
+      "preview_description": "Необычное приложение для заметок. Использует возможности андроида нестандартным образом.",
+      "grid_photo": "recall_note.png",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.4)translate(-20%,-58%); clip-path:none !important;"
+      },
+      "description": "Как часто вы сделав заметку в обычном приложении или записной книжке, не забываете его ? Данное приложение решает оригинальным способом проблему 'забытия'. Ваши заметки теперь храняется прямо в строке уведомлений на смартфоне. Каждый раз когда вы идёте смотреть оповещение об очередном сообщении из 'вконтактика', то невольно замечаете, что дел-то у Вас ещё вагон и маленькая тележка.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "recall_note.png",
+            "descr": "",
+            "sett": ""
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+            {
+              "iframe": "<iframe style=\"width: 100%; height: 300px;\" src=\"https://docs.google.com/document/d/e/2PACX-1vTvwmE7poronmSIXeF9aBedf9EhlGXLXi2YgSapgnQCZCvj32L85fCdl2ETmRLqsy2dth5feZFQbIQB/pub?embedded=true\"></iframe>",
+              "description": "Легкий копипаст обзора на приложение с трешбокса. <button onclick=\"openRecallNote()\" class=\"mdui-btn mdui-ripple mdui-color-transparent \">Открыть</button>"
+            }
+          ],
+          "melody": [
+          ]
+        }
+      }
+    },
+    {
+      "title": "Turn to Material",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#java_android",
+        "#material_design",
+        "#программирование",
+        "#работа_с_алгоритмами",
+        "#сделанов_2017",
+        "#обработка_изображений"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#работа_с_алгоритмами",
+        "#сделанов_2017"
+      ],
+      "preview_description": "(Material Design Converter) интересное приложение, конвертирующее изображение в стиль material design.",
+      "grid_photo": "md_converter.png",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.7) translate(-25%,-28%); clip-path:none !important;"
+      },
+      "description": "Моё первое приложение и проект связанные с обработкой ихображений. Свою задачу - превращение фото в материальный стиль, исполняет эффектно и качественно.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "md_converter.png",
+            "descr": "Результат работы приложения",
+            "sett": ""
+          },
+          {
+            "url": "md_converter_1.jpg",
+            "descr": "Исходное изображение, обработанное в Turn to Material",
+            "sett": ""
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+          ]
+        }
+      }
+    },
+    {
+      "title": "Moor",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#java_android",
+        "#material_design",
+        "#программирование",
+        "#скорость",
+        "#телеграм",
+        "#бот",
+        "#nodejs",
+        "#музыка"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#телеграм"
+      ],
+      "preview_description": "Приложение позволяет взаимодействовать с музыкальной бибилеотекой на пк в любой точке мира",
+      "grid_photo": "moor_mp.svg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.7) translate(-26%,-30%); clip-path:none !important;"
+      },
+      "description": "Moor открывает возможность работать с музыкой на вашем компьютере через клиент телеграма. (Нажав на логотип вы сможете просмтреть текуший интерйес приложения)",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "moor_mp.svg",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "moor_rend.png",
+            "descr": "",
+            "sett": ""
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+            {
+              "iframe": "<iframe  style=\"width: 100%; height: 300px;\" src=\"https://www.youtube.com/embed/7I2rq80LE5s\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+              "description": "Один из первых концептов приложения. Тогда идеалогия приложения было ещё другой."
+            },
+            {
+              "iframe": "<iframe  style=\"width: 100%; height: 300px;\" src=\"https://www.youtube.com/embed/tH2G85mBFIE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+              "description": "Обновление первого концпета"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Радиоэлектроника",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#электроника",
+        "#разносторонее_развитие",
+        "#радио",
+        "#ассемблер",
+        "#сбис",
+        "#3года",
+        "#нелюблюпаять"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#разносторонее_развитие",
+        "#электроника"
+      ],
+      "preview_description": "Три с половиной года занятий в аничковом по профилю радиоэлектроника.",
+      "grid_photo": "radio_dacha_3.jpg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.73) translate(-18%,-19%); clip-path:none !important;"
+      },
+      "description": "Знание радиоэлектроники позволило мне увидеть решения проблем в других направлениях деятельности человека. Оно позволило мне создовать электронные устройства с нуля, заместо использования ардуино.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "radio_dacha_3.jpg",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "radio_dacha.png",
+            "descr": "К сожалению сохранился сертефикат только за первый год обучения.",
+            "sett": ""
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+          ]
+        }
+      }
+    },
+    {
+      "title": "Radio Chain",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#разносторонее_развитие",
+        "#электроника",
+        "#работа_со_звуком",
+        "#алгоритмы_обработки_аудио",
+        "#костыли"
+
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#разносторонее_развитие",
+        "#электроника"
+      ],
+      "preview_description": "Проект развертываемой информационной сети в полевых условиях.",
+      "grid_photo": "radio_chain.svg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.9) translate(-20%,-23%); background: aliceblue; clip-path:none !important;"
+      },
+      "description": "Данный проект расширяет возможности таких устройств, как рация и смартфон. Используя свзяку этих устройств моё программное обеспечение вместе с небольшим девайсом, способны создать информационную сеть, в условиях отсуствия интернета и мобильной связи, за считанные минуты. Скорость, дешевизна, простота использования и конечно простота развертывания - вот основные плюсы этого проекта, которые делают его полезным для военных, путешественников и спасателей.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "radio_chain.svg",
+            "descr": "",
+            "sett": "background: aliceblue;"
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+          ]
+        }
+      }
+    },
+    {
+      "title": "Успехи в архитектуре и 3d моделировании",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#разносторонее_развитие",
+        "#дизайн",
+        "#архитектура"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#разносторонее_развитие",
+        "#архитектура"
+      ],
+      "preview_description": "Любишь кататься, люби и умный дом строить.",
+      "grid_photo": "architecture.jpg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.6) translate(-35%,-33%); clip-path:none !important;"
+      },
+      "description": "Этим летом, между делом  решил я архитектурный скил набрать, чтобы умный дом сваять. Освоил архикад, выполнил проект.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "architecture.jpg",
+            "descr": "",
+            "sett": ""
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+            {
+              "iframe": "<iframe style=\"width: 100%; height: 300px;\" src=\"https://www.youtube.com/embed/ge7eWLqnRrA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+              "description": "Проект на заказ."
+            },
+            {
+              "iframe": "<iframe style=\"width: 100%; height: 300px;\" src=\"https://www.youtube.com/embed/ge7eWLqnRrA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+              "description": "Мало-мало пирамид. (пока нету видео, скоро зальём)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Генератор грамот",
+      "type": "0",
+      "tags": [
+
+        "#программирование",
+        "#разносторонее_развитие",
+        "#дизайн",
+        "#упрощаем_жизнь",
+        "#лень_двигатель_прогресса",
+        "#python",
+        "#nodejs"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#разносторонее_развитие",
+        "#дизайн"
+      ],
+      "preview_description": "Одна грамота для всех школьников",
+      "grid_photo": "generatore_gramot.svg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.2) translate(-195%,-184%); clip-path:none !important;"
+      },
+      "description": "Идея проэкта в следующем. У нас есть шаблон грамоты и список тех, кого надо наградить. Это приложение само генерирует копии с нужными именами.",
+      "extensions": {
+        "gallery": [
+        ],
+        "dop_views": {
+          "youtube": [
+          ]
+        }
+      }
+    },
+    {
+      "title": "Успехи и победы в робототехнике",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#робототехника",
+        "#разносторонее_развитие"
+
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#разносторонее_развитие",
+        "#робототехника"
+      ],
+      "preview_description": "Робототехника, как начало пути.",
+      "grid_photo": "robo_creation.jpg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.86) translate(-9%,-25%); clip-path:none !important;"
+      },
+      "description": "Небольшие, но приятные и определяющие будещее, победы. 4ое место за неделю занятий.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "robo_creation_1.png",
+            "descr": "",
+            "sett": ""
+          },
+          {
+            "url": "robo_creation_2.png",
+            "descr": "",
+            "sett": ""
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+          ]
+        }
+      }
+    },
+    {
+      "title": "Компилятор сайтов",
+      "type": "0",
+      "tags": [
+        "#программирование",
+        "#разносторонее_развитие",
+        "#nodejs",
+        "#упрощаем_жизнь",
+        "#лень_двигатель_прогресса"
+      ],
+      "preview_tags": [
+        "#программирование",
+        "#разносторонее_развитие",
+        "#nodejs"
+      ],
+      "preview_description": "Мини проект позволяющий сайт с множеством внешних скриптов скомпилировать в один html фаил",
+      "grid_photo": "hack_change_grid2.svg",
+      "settings_data": {
+        "img_style": "height: 353px; filter: invert(0); transform: scale(0.6) translate(-34%,-37%); clip-path:none !important;"
+      },
+      "description": "Во время реализации сайта для ученых столкнулся с низкой скоростью загрузки сайта. Исследовав проблема я нашёл изьян. Проблема заключалась в количествах запросов для загрузки внещних скриптов. Загрузка этих скриптов с одного домена - не помогла. ПОэтому я провёл небольшой эксперимент и посмотрел, что будет быстрее - загрузка одного большого файла, или загрузка множества мелких. Итогом исследования стал скрипт, позволяющий все элементы сайта запихнуть в один html файл. В итоге подоюные 'скомпилированный' сайт загружался быстрее, чем сайт с множеством внешних скриптов.",
+      "extensions": {
+        "gallery": [
+          {
+            "url": "hack_change_grid2.svg",
+            "descr": "",
+            "sett": ""
+          }
+        ],
+        "dop_views": {
+          "youtube": [
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+browserify walkie/js/index_dev.js -o walkie/js/index.js -d

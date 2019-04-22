@@ -1,0 +1,22 @@
+{
+  "lang": "ru-RU",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icon/android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#da00ee",
+  "name": "Walkie Chat",
+  "short_name": "wChat",
+  "background_color": "#e0e0e0"
+}

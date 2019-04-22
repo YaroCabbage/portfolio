@@ -1,0 +1,2 @@
+>imagemin ./html/images/* --out-dir=build
+>imagemin ./html/images/* --out-dir=build
